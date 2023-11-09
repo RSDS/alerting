@@ -32,8 +32,8 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/common/model"
 
-	"github.com/grafana/alerting/models"
-	"github.com/grafana/alerting/templates"
+	"github.com/RSDS/alerting/models"
+	"github.com/RSDS/alerting/templates"
 )
 
 const (

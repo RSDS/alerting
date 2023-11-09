@@ -16,10 +16,10 @@ import (
 	"github.com/prometheus/alertmanager/types"
 	"github.com/prometheus/common/model"
 
-	"github.com/grafana/alerting/images"
-	"github.com/grafana/alerting/logging"
-	"github.com/grafana/alerting/receivers"
-	"github.com/grafana/alerting/templates"
+	"github.com/RSDS/alerting/images"
+	"github.com/RSDS/alerting/logging"
+	"github.com/RSDS/alerting/receivers"
+	"github.com/RSDS/alerting/templates"
 )
 
 // Constants and models are set according to the official documentation https://discord.com/developers/docs/resources/webhook#execute-webhook-jsonform-params

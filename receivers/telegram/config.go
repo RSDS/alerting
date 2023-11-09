@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/grafana/alerting/receivers"
-	"github.com/grafana/alerting/templates"
+	"github.com/RSDS/alerting/receivers"
+	"github.com/RSDS/alerting/templates"
 )
 
 const DefaultTelegramParseMode = "HTML"

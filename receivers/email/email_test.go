@@ -9,10 +9,10 @@ import (
 	"github.com/prometheus/common/model"
 	"github.com/stretchr/testify/require"
 
-	"github.com/grafana/alerting/images"
-	"github.com/grafana/alerting/logging"
-	"github.com/grafana/alerting/receivers"
-	"github.com/grafana/alerting/templates"
+	"github.com/RSDS/alerting/images"
+	"github.com/RSDS/alerting/logging"
+	"github.com/RSDS/alerting/receivers"
+	"github.com/RSDS/alerting/templates"
 )
 
 func TestNotify(t *testing.T) {

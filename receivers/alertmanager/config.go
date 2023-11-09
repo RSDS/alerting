@@ -7,7 +7,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/grafana/alerting/receivers"
+	"github.com/RSDS/alerting/receivers"
 )
 
 type Config struct {

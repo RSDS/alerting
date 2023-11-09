@@ -8,8 +8,8 @@ import (
 	"github.com/prometheus/alertmanager/types"
 	"github.com/prometheus/common/model"
 
-	"github.com/grafana/alerting/logging"
-	"github.com/grafana/alerting/models"
+	"github.com/RSDS/alerting/logging"
+	"github.com/RSDS/alerting/models"
 )
 
 const (

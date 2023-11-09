@@ -8,9 +8,9 @@ import (
 	"github.com/prometheus/alertmanager/types"
 	"github.com/prometheus/common/model"
 
-	"github.com/grafana/alerting/images"
-	"github.com/grafana/alerting/logging"
-	"github.com/grafana/alerting/receivers"
+	"github.com/RSDS/alerting/images"
+	"github.com/RSDS/alerting/logging"
+	"github.com/RSDS/alerting/receivers"
 )
 
 func New(cfg Config, meta receivers.Metadata, images images.Provider, logger logging.Logger) *Notifier {
