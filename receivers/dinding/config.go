@@ -17,6 +17,7 @@ type Config struct {
 }
 
 const defaultDingdingMsgType = "link"
+const defaultDingdingToUser = "all"
 
 func NewConfig(jsonData json.RawMessage) (Config, error) {
 	var settings Config
@@ -35,6 +36,10 @@ func NewConfig(jsonData json.RawMessage) (Config, error) {
 	}
 	if settings.Message == "" {
 		settings.Message = templates.DefaultMessageEmbed
+	}
+
+	if settings.ToUser == "" {
+		settings.ToUser = defaultDingdingToUser
 	}
 	return settings, nil
 }
